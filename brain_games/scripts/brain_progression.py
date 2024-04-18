@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 
-from brain_games.engine import engine_game
-from brain_games.progression import right_answer_game
+from brain_games.games.engine import engine_game
+from brain_games.games.progression import right_answer_game
 
 
 def main():

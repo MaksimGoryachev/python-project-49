@@ -32,7 +32,5 @@ brain-prime:
 	poetry run brain-prime
 
 package-reinstall:
-	python3 -m pip install --user --forse-reinstal dist/*.whl
+	python3 -m pip install --user --forse-reinstall dist/*.whl
 
-test-coverage:
-	poetry run pytest --cov=hexlet_python_package --cov-report xtml
