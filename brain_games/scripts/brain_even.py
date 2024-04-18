@@ -8,7 +8,7 @@ from brain_games.even import right_answer_game
 def main():
     question = 'Answer "yes" if the number is even, otherwise answer "no".'
     right_answer_game()
-    engine(question)
+    engine_game(question)
 
 
 if __name__ == '__main__':
