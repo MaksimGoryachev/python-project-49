@@ -2,11 +2,11 @@
 
 
 from brain_games.engine import engine_game
-from brain_games.gcd import right_answer_game
+from brain_games.progression import right_answer_game
 
 
 def main():
-    question = 'Find the greatest common divisor of given numbers.'
+    question = 'What number is missing in the progression?'
     right_answer_game()
     engine_game(question)
 

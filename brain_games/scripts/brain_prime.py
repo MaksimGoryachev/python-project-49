@@ -2,11 +2,11 @@
 
 
 from brain_games.engine import engine_game
-from brain_games.gcd import right_answer_game
+from brain_games.prime import right_answer_game
 
 
 def main():
-    question = 'Find the greatest common divisor of given numbers.'
+    question = 'Answer "yes" if giwen number is prime. Otherwise answet "no"'
     right_answer_game()
     engine_game(question)
 
