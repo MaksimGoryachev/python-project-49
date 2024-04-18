@@ -1,5 +1,4 @@
 import prompt
-from calc import right_answer_game
 
 
 def engine_game(question):

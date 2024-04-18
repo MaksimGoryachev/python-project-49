@@ -32,5 +32,5 @@ brain-prime:
 	poetry run brain-prime
 
 package-reinstall:
-	python3 -m pip install --user --forse-reinstall dist/*.whl
+	python3 -m pip install --user --force-reinstall dist/*.whl
 
