@@ -1,6 +1,6 @@
 .env/
 *.egg-info
-__pycache__
+brain_games/__pycache__/
 dist/
 *.pyc
 .venv/
