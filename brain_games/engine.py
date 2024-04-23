@@ -7,7 +7,8 @@ def engine_game(question, right_answers, expressions):
     print(f'Hello, {name}!')
     print(question)
     correct_answers_count = 0
-    for _ in range(3):
+    number_of_rounds = 3
+    for _ in range(number_of_rounds):
         right_answer = right_answers[_]
         expression = expressions[_]
         print(f"Question: {expression}")
@@ -15,7 +16,7 @@ def engine_game(question, right_answers, expressions):
         if str(right_answer) == str(geted_answer):
             print('Correct!')
             correct_answers_count += 1
-            if correct_answers_count == 3:
+            if correct_answers_count == number_of_rounds:
                 print(f'Congratulations, {name}!')
         else:
             print(f'"{geted_answer}" is wrong answer ;(. Correct answer '
