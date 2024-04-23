@@ -6,7 +6,7 @@ from brain_games.games.prime import right_answer_game
 
 
 def main():
-    question = 'Answer "yes" if giwen number is prime. Otherwise answet "no".'
+    question = 'Answer "yes" if given number is prime. Otherwise answet "no".'
     right_answers, expressions = right_answer_game()
     engine_game(question, right_answers, expressions)
 
