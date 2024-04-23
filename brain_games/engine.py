@@ -21,5 +21,5 @@ def engine_game(question, right_answers, expressions):
         else:
             print(f'"{geted_answer}" is wrong answer ;(. Correct answer '
                   f'was "{right_answer}".\n Let\'s try'
-                  f'again, {name}!')
+                  f' again, {name}!')
             break
