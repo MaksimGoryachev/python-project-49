@@ -1,10 +1,9 @@
 from brain_games.engine import engine_game
-from brain_games.games.calc import right_answer_game
+from brain_games.games.calc import generate_data_for_game
 
 
 def main():
-    question = 'What is the result of the expression?'
-    right_answers, expressions = right_answer_game()
+    question, right_answers, expressions = generate_data_for_game()
     engine_game(question, right_answers, expressions)
 
 
