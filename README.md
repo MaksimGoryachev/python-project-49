@@ -51,7 +51,7 @@ You have now successfully installed Brain-games.
 
 ## Demonstration games
 
-[brain_calc](https://asciinema.org/a/LIaq2cnaOdo4O77PgS8dj5CVe)
+[![asciicast](https://asciinema.org/a/LIaq2cnaOdo4O77PgS8dj5CVe.svg)](https://asciinema.org/a/LIaq2cnaOdo4O77PgS8dj5CVe)
 
     
   ### win
