@@ -51,7 +51,8 @@ https://asciinema.org/a/iWvkh0oOZu6oZKeSWlJGp8LTH
 
 ## Demonstration games
 
-### brain_calc
+[brain_calc](https://asciinema.org/a/LIaq2cnaOdo4O77PgS8dj5CVe)
+
     
   ### win
 https://asciinema.org/a/iWvkh0oOZu6oZKeSWlJGp8LTH
