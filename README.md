@@ -33,7 +33,7 @@ Before installation, make sure that you have [Poetry](https://python-poetry.org/
 You have now successfully installed Brain-games.
 
 ### Demonstration installation
-https://asciinema.org/a/iWvkh0oOZu6oZKeSWlJGp8LTH
+[installation](https://asciinema.org/a/iWvkh0oOZu6oZKeSWlJGp8LTH)
 
 ---
 
