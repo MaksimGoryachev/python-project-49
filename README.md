@@ -33,7 +33,8 @@ Before installation, make sure that you have [Poetry](https://python-poetry.org/
 You have now successfully installed Brain-games.
 
 ### Demonstration installation
-[installation](https://asciinema.org/a/iWvkh0oOZu6oZKeSWlJGp8LTH)
+
+[![asciicast](https://asciinema.org/a/5SstgfOYMdKSalabCaJUqpjzs.svg)](https://asciinema.org/a/5SstgfOYMdKSalabCaJUqpjzs)
 
 ---
 
@@ -50,16 +51,24 @@ You have now successfully installed Brain-games.
 ---
 
 ## Demonstration games
+  ### calc
+  
+[![asciicast](https://asciinema.org/a/mbFxeoDOcI8WqYEtyXUqroIii.svg)](https://asciinema.org/a/mbFxeoDOcI8WqYEtyXUqroIii)
 
-[![asciicast](https://asciinema.org/a/LIaq2cnaOdo4O77PgS8dj5CVe.svg)](https://asciinema.org/a/LIaq2cnaOdo4O77PgS8dj5CVe)
+  ### even
 
-    
-  ### win
-https://asciinema.org/a/iWvkh0oOZu6oZKeSWlJGp8LTH
-  ### loss
-https://asciinema.org/a/NRZtse3WL4tiBKSkMNifk5NqD
-https://asciinema.org/a/NNw57gT9hZkCeev1MOEfGOgPM
-https://asciinema.org/a/bVj6urB7UxhuseEDH1VQc0otC
-https://asciinema.org/a/sCpFJSpq6ccSASLrcd36C3MvA
+[![asciicast](https://asciinema.org/a/plFuy7WSdUFZWEPVr1UYXqxbW.svg)](https://asciinema.org/a/plFuy7WSdUFZWEPVr1UYXqxbW)
+
+  ### gcd
+
+[![asciicast](https://asciinema.org/a/BwLx5laPQDkBlnZBWvzSkQH5y.svg)](https://asciinema.org/a/BwLx5laPQDkBlnZBWvzSkQH5y)
+
+  ### progression
+
+[![asciicast](https://asciinema.org/a/eJgmDuWhezQhfvkDKiMElgzc5.svg)](https://asciinema.org/a/eJgmDuWhezQhfvkDKiMElgzc5)
+
+  ### prime
+
+[![asciicast](https://asciinema.org/a/6ql30A7AhGldCDAdBO7A1tFAJ.svg)](https://asciinema.org/a/6ql30A7AhGldCDAdBO7A1tFAJ)
 
 ---
