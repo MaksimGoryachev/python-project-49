@@ -4,7 +4,8 @@ from brain_games.games.gcd import generate_data_for_game
 
 
 def main():
-    engine_game(generate_data_for_game)
+    question, expressions, right_answers = generate_data_for_game()
+    engine_game(question, expressions, right_answers)
 
 
 if __name__ == '__main__':
