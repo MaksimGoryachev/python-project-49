@@ -30,6 +30,7 @@ Before installation, make sure that you have [Poetry](https://python-poetry.org/
 1. Clone the repository to your computer `git clone https://github.com/MaksimGoryachev/python-project-49`
 2. Go to the project folder `cd brain_games`
 3. Install the game package `make setup`
+
 You have now successfully installed Brain-games.
 
 ### Demonstration installation
