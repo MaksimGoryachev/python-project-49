@@ -12,7 +12,7 @@ def engine_game(question, right_answers, expressions):
         right_answer = right_answers[_]
         expression = expressions[_]
         print(f"Question: {expression}")
-        geted_answer = input('Your answer: ')
+        geted_answer = prompt.string('Your answer: ')
         if str(right_answer) == str(geted_answer):
             print('Correct!')
             correct_answers_count += 1
