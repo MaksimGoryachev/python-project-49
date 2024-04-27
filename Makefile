@@ -16,4 +16,4 @@ lint:
 package-reinstall:
 	python3 -m pip install --user --force-reinstall dist/*.whl
 
-setup: install build package-install
+setup: install build publish package-install

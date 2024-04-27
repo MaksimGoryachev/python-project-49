@@ -1,7 +1,7 @@
 import prompt
 
 
-def engine_game(question, right_answers, expressions):
+def engine_game(question, generate_data_for_game): #
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -9,8 +9,9 @@ def engine_game(question, right_answers, expressions):
     correct_answers_count = 0
     number_of_rounds = 3
     for _ in range(number_of_rounds):
-        right_answer = right_answers[_]
-        expression = expressions[_]
+        right_answer, expression = generate_data_for_game() #
+        #  right_answer = right_answers[_]
+        #  expression = expressions[_]
         print(f"Question: {expression}")
         geted_answer = prompt.string('Your answer: ')
         if str(right_answer) == str(geted_answer):
