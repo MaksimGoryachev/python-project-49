@@ -2,12 +2,16 @@ from random import randint
 
 
 def is_prime(num: int) -> bool:
-    for _ in range(2, num // 2 + 1):
-        return num % _ == 0
+    if num < 2:
+        return False
+    for divisor in range(2, int(num**0.5) + 1):
+        if num % divisor == 0:
+            return False
+    return True
 
 
 def returns_right_answer_round(num):
-    return 'no'if is_prime(num) else 'yes'
+    return 'yes'if is_prime(num) else 'no'
 
 
 def generate_data_for_game() -> tuple:
