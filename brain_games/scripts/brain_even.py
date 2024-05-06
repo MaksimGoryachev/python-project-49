@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.engine import engine_game
-from brain_games.games.even import question, generate_data_for_game
+from brain_games.games.even import QUESTION, generate_data_for_game
 
 
 def main():
-    engine_game(question, generate_data_for_game)
+    engine_game(QUESTION, generate_data_for_game)
 
 
 if __name__ == '__main__':
