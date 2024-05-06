@@ -14,7 +14,6 @@ def get_greatest_common_divisor(num_1, num_2) -> int:
             return divisor
 
 
-
 def generate_data_for_game() -> tuple:
 
     number_1 = randint(1, NUMBER_1_MAX)
